@@ -1,0 +1,7 @@
+pazartesi
+sali
+carsamba
+persembe
+cuma
+cumartesi
+pazar

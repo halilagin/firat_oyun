@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ortalama hesaplama sitesi</title>
+</head>
+<body>
+<form action="{{ url_for('average_result')}}" method="post">
+  <p>Matematik<input type="number" name="math" required/></p>
+  <p>Fizik<input type="number" name="physic" required/></p>
+  <p>Kimya<input type="number" name="chem"required/></p>
+  <p>Biyoloji<input type="number" name="bio"required/></p>
+  <input type="submit" value="gönder"/>
+</form>
+
+</body>
+</html>

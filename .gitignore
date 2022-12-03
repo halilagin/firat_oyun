@@ -1,0 +1,6 @@
+venv
+*.swp
+*.swo
+build
+__pycache__
+
