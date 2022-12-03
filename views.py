@@ -4,13 +4,6 @@ from itsdangerous import signer
 app = Flask(__name__)
 
 
-@app.route("/")
-def main():
-    name = request.cookies.get('name')
-    print('name', name)
-    response = make_response("<html><body><h1>İlk Flask Denemesi</h1></body></html>")
-    response.set_cookie('name', 'Mehmet')
-    return response
 
 
 @app.route("/hello")
