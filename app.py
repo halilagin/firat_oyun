@@ -1,6 +1,5 @@
 from flask import Flask
 #import views
-from ornek import *
 from views import *
 
 
