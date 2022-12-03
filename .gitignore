@@ -3,4 +3,4 @@ venv
 *.swo
 build
 __pycache__
-
+.idea
